@@ -5,6 +5,10 @@ on:
     - cron: '0 6 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -18,6 +22,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update project list in profile README
+        id: repo-display
         uses: sansk/github-repo-display@1dcfd1d5e09f870804cde2a6ff79f0632cd92c6e # v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -25,10 +30,17 @@ jobs:
           topic: hephaistos-rs
           format: list
           readme_path: profile/README.md
+          title: '🚀 Projects'
           start_marker: <!-- PROJECTS:START -->
           end_marker: <!-- PROJECTS:END -->
           show_description: true
           show_language: true
-          show_stars: false
-          show_forks: false
+          show_stars: true
+          show_forks: true
+          show_topics: true
           commit_message: 'docs(profile): update organization project list'
+
+      - name: Summarize run
+        run: |
+          echo "### Project showcase update" >> "$GITHUB_STEP_SUMMARY"
+          echo "Repositories matched (topic \`hephaistos-rs\`): **${{ steps.repo-display.outputs.repositories_count }}**" >> "$GITHUB_STEP_SUMMARY"
