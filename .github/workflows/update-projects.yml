@@ -18,11 +18,11 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Update project list in profile README
-        uses: sansk/github-repo-display@v1
+        uses: sansk/github-repo-display@1dcfd1d5e09f870804cde2a6ff79f0632cd92c6e # v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           username: hephaistos-rs
-          topic: hephaistos-project
+          topic: hephaistos-rs
           format: list
           readme_path: profile/README.md
           start_marker: <!-- PROJECTS:START -->
