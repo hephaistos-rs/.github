@@ -24,7 +24,7 @@ jobs:
           username: hephaistos-rs
           topic: hephaistos-project
           format: list
-          readme_path: .github/profile/README.md
+          readme_path: profile/README.md
           start_marker: <!-- PROJECTS:START -->
           end_marker: <!-- PROJECTS:END -->
           show_description: true
