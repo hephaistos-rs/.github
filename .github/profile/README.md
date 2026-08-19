@@ -7,7 +7,10 @@ Hephaistos-rs is an open-source organization focused on forging practical softwa
 ## Projects
 
 <!-- PROJECTS:START -->
-_Project list is updated automatically._
+## 🚀 My Projects
+
+No projects found.
+
 <!-- PROJECTS:END -->
 
 ## Philosophy
