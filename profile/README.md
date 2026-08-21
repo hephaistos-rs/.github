@@ -21,11 +21,11 @@ Hephaistos-rs is an open-source organization focused on forging practical softwa
 - ### 🧑‍💻 **[edda](https://github.com/hephaistos-rs/edda)**
    ![Rust](https://img.shields.io/badge/-Rust-blue) ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
 
-   Edda, a self-hosted Git platform, crafted in Rust.	
+   Edda, the story behind your code.	
 
 
 ---
-*Updated on August 20, 2026*
+*Updated on August 21, 2026*
 
 <!-- PROJECTS:END -->
 
