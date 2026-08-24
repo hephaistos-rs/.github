@@ -18,6 +18,10 @@ Hephaistos-rs is an open-source organization focused on forging practical softwa
 <!-- PROJECTS:START -->
 ## 🚀 Projects
 
+- ### 🧑‍💻 **[terra](https://github.com/hephaistos-rs/terra)**
+   ![Rust](https://img.shields.io/badge/-Rust-blue) ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
+
+   Terra, let your software take root	
 - ### 🧑‍💻 **[edda](https://github.com/hephaistos-rs/edda)**
    ![Rust](https://img.shields.io/badge/-Rust-blue) ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
 
@@ -25,7 +29,7 @@ Hephaistos-rs is an open-source organization focused on forging practical softwa
 
 
 ---
-*Updated on August 23, 2026*
+*Updated on August 24, 2026*
 
 <!-- PROJECTS:END -->
 
