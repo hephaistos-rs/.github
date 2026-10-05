@@ -18,14 +18,26 @@ Hephaistos-rs is an open-source organization focused on forging practical softwa
 <!-- PROJECTS:START -->
 ## 🚀 Projects
 
-- ### 🧑‍💻 **[edda](https://github.com/hephaistos-rs/edda)**
+- ### 🧑‍💻 **[klotho](https://github.com/hephaistos-rs/klotho)**
    ![Rust](https://img.shields.io/badge/-Rust-blue) ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
 
-   Edda, the story behind your code.	
-- ### 🧑‍💻 **[terra](https://github.com/hephaistos-rs/terra)**
-   ![Rust](https://img.shields.io/badge/-Rust-blue) ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
+   Self-hosted git, where code is spun	
+- ### 🧑‍💻 **[atropos](https://github.com/hephaistos-rs/atropos)**
+   ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
 
-   Terra, let your software take root	
+   Cut a release, host it yourself	
+- ### 🧑‍💻 **[lachesis](https://github.com/hephaistos-rs/lachesis)**
+   ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
+
+   Self-hosted CI, measuring each build stage	
+- ### 🧑‍💻 **[lemnos](https://github.com/hephaistos-rs/lemnos)**
+   ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
+
+   Forge your own cloud.	
+- ### 🧑‍💻 **[kedalion](https://github.com/hephaistos-rs/kedalion)**
+   ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
+
+   Hyper-V host agent that guides Lemnos	
 
 
 ---
