@@ -18,6 +18,10 @@ Hephaistos-rs is an open-source organization focused on forging practical softwa
 <!-- PROJECTS:START -->
 ## 🚀 Projects
 
+- ### 🧑‍💻 **[lemnos](https://github.com/hephaistos-rs/lemnos)**
+   ![CSS](https://img.shields.io/badge/-CSS-blue) ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
+
+   Forge your own cloud.	
 - ### 🧑‍💻 **[klotho](https://github.com/hephaistos-rs/klotho)**
    ![Rust](https://img.shields.io/badge/-Rust-blue) ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
 
@@ -30,10 +34,6 @@ Hephaistos-rs is an open-source organization focused on forging practical softwa
    ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
 
    Self-hosted CI, measuring each build stage	
-- ### 🧑‍💻 **[lemnos](https://github.com/hephaistos-rs/lemnos)**
-   ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
-
-   Forge your own cloud.	
 - ### 🧑‍💻 **[kedalion](https://github.com/hephaistos-rs/kedalion)**
    ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
 
@@ -41,7 +41,7 @@ Hephaistos-rs is an open-source organization focused on forging practical softwa
 
 
 ---
-*Updated on October 9, 2026*
+*Updated on October 10, 2026*
 
 <!-- PROJECTS:END -->
 
