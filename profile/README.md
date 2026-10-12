@@ -19,7 +19,7 @@ Hephaistos-rs is an open-source organization focused on forging practical softwa
 ## 🚀 Projects
 
 - ### 🧑‍💻 **[lemnos](https://github.com/hephaistos-rs/lemnos)**
-   ![CSS](https://img.shields.io/badge/-CSS-blue) ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
+   ![Rust](https://img.shields.io/badge/-Rust-blue) ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
 
    Forge your own cloud.	
 - ### 🧑‍💻 **[klotho](https://github.com/hephaistos-rs/klotho)**
@@ -41,7 +41,7 @@ Hephaistos-rs is an open-source organization focused on forging practical softwa
 
 
 ---
-*Updated on October 11, 2026*
+*Updated on October 12, 2026*
 
 <!-- PROJECTS:END -->
 
