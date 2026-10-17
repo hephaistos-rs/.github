@@ -2,7 +2,7 @@ name: Update organization projects
 
 on:
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 6 * * 1'
   workflow_dispatch:
 
 concurrency:
@@ -38,9 +38,31 @@ jobs:
           show_stars: true
           show_forks: true
           show_topics: true
-          commit_message: 'docs(profile): update organization project list'
+          commit_changes: false
+
+      # The action always stamps "Updated on <date>", which made every run
+      # commit. Strip it so only real changes (repos, descriptions, counts)
+      # produce a diff.
+      - name: Strip generated timestamp
+        run: |
+          perl -0pi -e 's/\n+---\n\*Updated on [^\n]*\*\n+(?=<!-- PROJECTS:END -->)/\n\n/' profile/README.md
+
+      - name: Commit if changed
+        id: commit
+        run: |
+          if git diff --quiet -- profile/README.md; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add profile/README.md
+          git commit -m 'docs(profile): update organization project list'
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Summarize run
         run: |
           echo "### Project showcase update" >> "$GITHUB_STEP_SUMMARY"
           echo "Repositories matched (topic \`hephaistos-rs\`): **${{ steps.repo-display.outputs.repositories_count }}**" >> "$GITHUB_STEP_SUMMARY"
+          echo "README changed: **${{ steps.commit.outputs.changed }}**" >> "$GITHUB_STEP_SUMMARY"

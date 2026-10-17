@@ -39,10 +39,6 @@ Hephaistos-rs is an open-source organization focused on forging practical softwa
 
    Hyper-V host agent that guides Lemnos	
 
-
----
-*Updated on October 17, 2026*
-
 <!-- PROJECTS:END -->
 
 ---
