@@ -18,6 +18,10 @@ Hephaistos-rs is an open-source organization focused on forging practical softwa
 <!-- PROJECTS:START -->
 ## 🚀 Projects
 
+- ### 🧑‍💻 **[kedalion](https://github.com/hephaistos-rs/kedalion)**
+   ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
+
+   Host agent that guides Lemnos	
 - ### 🧑‍💻 **[lemnos](https://github.com/hephaistos-rs/lemnos)**
    ![Rust](https://img.shields.io/badge/-Rust-blue) ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
 
@@ -34,10 +38,6 @@ Hephaistos-rs is an open-source organization focused on forging practical softwa
    ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
 
    Self-hosted CI, measuring each build stage	
-- ### 🧑‍💻 **[kedalion](https://github.com/hephaistos-rs/kedalion)**
-   ![Stars](https://img.shields.io/badge/⭐-0-yellow) ![Forks](https://img.shields.io/badge/🔀-0-orange)
-
-   Hyper-V host agent that guides Lemnos	
 
 <!-- PROJECTS:END -->
 
